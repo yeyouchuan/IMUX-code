@@ -4,12 +4,6 @@ import BlurBG from '@/public/images/BlurBG.png';
 
 import Image from 'next/image';
 
-const ArrowUp = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" viewBox="0 0 256 256">
-    <path d="M208.49,120.49a12,12,0,0,1-17,0L140,69V216a12,12,0,0,1-24,0V69L64.49,120.49a12,12,0,0,1-17-17l72-72a12,12,0,0,1,17,0l72,72A12,12,0,0,1,208.49,120.49Z"></path>
-  </svg>
-);
-
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center container w-full relative">
@@ -34,3 +28,9 @@ export default function Home() {
     </main>
   )
 }
+
+const ArrowUp = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" viewBox="0 0 256 256">
+    <path d="M208.49,120.49a12,12,0,0,1-17,0L140,69V216a12,12,0,0,1-24,0V69L64.49,120.49a12,12,0,0,1-17-17l72-72a12,12,0,0,1,17,0l72,72A12,12,0,0,1,208.49,120.49Z"></path>
+  </svg>
+);

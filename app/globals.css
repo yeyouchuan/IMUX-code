@@ -21,11 +21,6 @@
 	font-family: 'TrajanPro-Bold';
 	src: url('../public/fonts/TrajanPro-Bold.otf') format('truetype');
 }
-
-.body {
-  background-color: #F7F5F4;
-}
-
 .container {
   @apply mx-6 lg:mx-24 min-[1180px]:mx-auto xl:max-w-[1120px] my-4 sm:my-32;
 }
