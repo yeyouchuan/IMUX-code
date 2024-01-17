@@ -14,7 +14,7 @@ export default function Strategies() {
     return (
         <main className="flex flex-col items-center justify-center container py-2">
             <h1 className="text-4xl font-TrajanBold text-green-600/70 mt-24 md:mt-8">Strategies</h1>
-            <div className='mt-12 md:mt-20 flex flex-col w-full'>
+            <div className='mt-12 md:mt-20 flex flex-col w-full mr-6 md:mr-0'>
                 <div className='w-full h-fit rounded-xl bg-white/50 border border-white flex flex-col gap-4 py-12 px-4 md:px-28'>
                     <div className='group flex flex-col gap-4 relative'>
                         <div className='flex justify-center items-center relative'>
