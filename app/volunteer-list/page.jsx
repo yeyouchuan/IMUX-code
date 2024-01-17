@@ -2,9 +2,9 @@ import '@radix-ui/themes/styles.css';
 import { Checkbox } from '@radix-ui/themes';
 import { Button } from '@radix-ui/themes';
 
-export default function Volunteer() {
+export default function VolunteerList() {
     return (
-        <div className="flex flex-col items-center justify-center container py-2">
+        <main className="flex flex-col items-center justify-center container py-2">
             <div className="prose">
                 <p>
                     As a volunteer, there are a few key elements of good room guiding that we ask you to keep in mind that will help you be most effective in the role. 
@@ -28,6 +28,10 @@ export default function Volunteer() {
                     <strong>Be honest if you are unsure.</strong> If a visitor asks a question that you do not know the answer to, be upfront and honest that you do not know. 
                     You can direct questions on to the member of staff on the desk who may know the answer. 
                 </li>
+                <p>
+                    As with all our volunteer positions, you are an important part of the team and the most valuable thing you can bring to the role is your enthusiasm and passion. 
+                    We appreciate the time you give up to room guide for us, and we hope you enjoy your time volunteering.
+                </p>
                 <div className='w-full not-prose mt-4'>
                     <Checkbox className='my-2' />
                     <p className="ml-2 mt-0.5 inline-flex">I have read and understood the above points.</p>
@@ -38,6 +42,6 @@ export default function Volunteer() {
                     </a>
                 </div>
             </div>
-        </div>
+        </main>
     )
 } 

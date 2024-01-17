@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <div lang="en">
       <Header />
-      <body className="body">
+      <body className="bg-[#D9E5CC] w-[88%] md:w-full">
         <Theme>
           {children}
         </Theme>

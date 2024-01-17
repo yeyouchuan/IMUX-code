@@ -12,11 +12,6 @@ module.exports = {
       "TrajanBold": ['TrajanPro-Bold','serif'],
     },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
         'brand-white': '#F7F5F4',
         'brand-gray': '#E2E2E2',

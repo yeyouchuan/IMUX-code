@@ -10,13 +10,13 @@ export default function SelectCards() {
         <ul>
           <li id="one">
             <article>
-                <div className="flex flex-col gap-8 items-center justify-center p-8 group">
+                <a href="/visitor" className="flex flex-col gap-8 items-center justify-center p-8 group">
                     <p className="font-bold text-xl text-brand-green">Visitor</p>
                     <div className="relative flex w-full h-full items-center justify-center">
                         <Image src={VisitorTicket} width={100} height={100} className="w-fit h-full -rotate-6 translate-x-6 group-hover:translate-x-3 group-hover:-translate-y-3 duration-500" alt="Visitor ticket" />
                         <Image src={VisitorTicket} width={100} height={100} className="w-fit h-full rotate-[8deg] -translate-x-6 drop-shadow-xl group-hover:-translate-x-3 group-hover:-translate-y-3 duration-500" alt="Visitor ticket" />
                     </div>
-                </div>
+                </a>
             </article>
           </li>
           <li id="two">

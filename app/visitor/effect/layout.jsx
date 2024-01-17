@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google'
-import '../globals.css'
+import '../../globals.css'
 import '@radix-ui/themes/styles.css';
 import { Theme } from '@radix-ui/themes';
 
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <div lang="en">
       <Header />
-      <body className="body">
+      <body className="bg-[#D9E5CC] w-[88%] md:w-full">
         <Theme>
           {children}
         </Theme>
