@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <div lang="en">
       <Header />
-      <body className="bg-[#F7F5F4]">
+      <body className="bg-[#fff2eb]">
         <Theme>
           {children}
         </Theme>

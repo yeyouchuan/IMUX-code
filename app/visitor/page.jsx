@@ -3,6 +3,7 @@ import '@radix-ui/themes/styles.css';
 import Leven from '@/public/images/Leven.png';
 import Manchester from '@/public/images/Manchester.png';
 import Fairfax from '@/public/images/Fairfax.png';
+import MicklegateBarSM from '@/public/images/micklegate-bar-sm.png';
 
 import Image from 'next/image';
 
@@ -11,8 +12,8 @@ export default function Visitor() {
         <main className="flex flex-col items-center justify-center container py-2">
             <h1 className="text-2xl md:text-4xl font-TrajanBold text-green-600/70 mt-24 md:mt-8">The 1644 siege of York</h1>
             <div className='mt-20 flex flex-col w-full'>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-10 md:w-full mr-6 md:mr-0'>
-                    <div className='w-full h-fit rounded-xl bg-white/50 border border-white flex flex-col gap-4 p-8'>
+                <div className='grid grid-cols-1 md:grid-cols-6 gap-10 md:w-full mr-6 md:mr-0'>
+                    <div className='w-full h-full rounded-xl bg-white/50 border border-white col-span-2 flex flex-col gap-4 p-8'>
                         <div className='flex flex-row gap-4'>
                             <Image src={Leven} width={80} height={80} className="w-20 h-20 md:w-20 md:h-20" alt='Leven Avatar' />
                             <Image src={Manchester} width={80} height={80} className="w-20 h-20 md:w-20 md:h-20" alt='Manchester Avatar' />
@@ -24,7 +25,7 @@ export default function Visitor() {
                             <ArrowRightIcon />
                         </a>
                     </div>
-                    <div className='w-full h-full rounded-xl bg-white/50 border border-white flex flex-col gap-4 py-6 px-8'>
+                    <div className='w-full h-full rounded-xl bg-white/50 border border-white col-span-2 flex flex-col gap-4 py-6 px-8'>
                         <Strategies />
                         <h2 className='text-xl font-semibold'>Siege Strategies and Tactics</h2>
                         <a href='/visitor/strategies' className='flex gap-1 group'>
@@ -32,21 +33,22 @@ export default function Visitor() {
                             <ArrowRightIcon />
                         </a>
                     </div>
-                    <div className='w-full h-full rounded-xl bg-white/50 border border-white flex flex-col gap-4 p-8'>
+                    <div className='w-full h-fit rounded-xl bg-white/50 border border-white col-span-2 flex flex-col gap-4 p-8'>
+                        <Image src={MicklegateBarSM} width={1000} height={500} className="w-full h-fit rounded-xl" alt='Micklegate Bar' />
                         <h2 className='text-xl font-semibold'>The Impact on Micklegate Bar and City Walls</h2>
                         <a href='/visitor/micklegate-bar' className='flex gap-1 group'>
                             <p className='text-base text-gray-700 hover:text-black'>Learn More</p>
                             <ArrowRightIcon />
                         </a>
                     </div>
-                    <div className='w-full h-60 rounded-xl bg-white/50 border border-white flex flex-col gap-4 p-8'>
+                    <div className='w-full h-full rounded-xl bg-white/50 border border-white col-span-2 md:col-span-3 flex flex-col gap-4 p-8'>
                         <h2 className='text-xl font-semibold'>Outcomes and Long-Term Effects</h2>
                         <a href='/visitor/effect' className='flex gap-1 group'>
                             <p className='text-base text-gray-700 hover:text-black'>Learn More</p>
                             <ArrowRightIcon />
                         </a>
                     </div>
-                    <div className='w-full h-60 rounded-xl bg-white/50 border border-white flex flex-col gap-4 p-8'>
+                    <div className='w-full h-full rounded-xl bg-white/50 border border-white col-span-2 md:col-span-3 flex flex-col gap-4 p-8'>
                         <h2 className='text-xl font-semibold'>Cultural Heritage and Legacy</h2>
                         <a href='/visitor/cultural-heritage' className='flex gap-1 group'>
                             <p className='text-base text-gray-700 hover:text-black'>Learn More</p>

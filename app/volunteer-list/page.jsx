@@ -5,7 +5,7 @@ import { Button } from '@radix-ui/themes';
 export default function VolunteerList() {
     return (
         <main className="flex flex-col items-center justify-center container py-2">
-            <div className="prose">
+            <div className="prose mt-16 md:mt-0 mr-6 md:mr-0">
                 <p>
                     As a volunteer, there are a few key elements of good room guiding that we ask you to keep in mind that will help you be most effective in the role. 
                     The following points will help you to develop your room guiding skills and have a worthwhile and enjoyable experience as a volunteer room guide:  
