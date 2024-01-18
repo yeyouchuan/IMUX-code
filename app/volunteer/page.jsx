@@ -19,7 +19,7 @@ export default function Volunteer() {
                         <div className='w-full h-fit bg-white rounded-xl mt-20 p-8'>
                             <div className='prose'>
                                 <h2>Background of the English Civil War</h2>
-                                <li><strong>Foundational Causes:</strong> The English Civil War, a series of armed conflicts and political machinations between Parliamentarians ("Roundheads") and Royalists ("Cavaliers"), primarily stemmed from issues of royal authority, governance, and religious freedoms. This period was marked by a power struggle between King Charles I and the Parliament of England.</li>
+                                <li><strong>Foundational Causes:</strong> The English Civil War, a series of armed conflicts and political machinations between Parliamentarians (&ldquo;Roundheads&rdquo;) and Royalists (&ldquo;Cavaliers&rdquo;), primarily stemmed from issues of royal authority, governance, and religious freedoms. This period was marked by a power struggle between King Charles I and the Parliament of England.</li>
                                 <li><strong>Key Players:</strong> Key figures included King Charles I, representing the absolute monarchy, and leaders like Oliver Cromwell, representing the parliamentary forces.</li>
                                 <li><strong>Religious and Political Divisions:</strong> The war was also significantly influenced by religious tensions, particularly between the Anglican Church, supported by the monarchy, and various Protestant factions aligning with Parliament.</li>
                             </div>
