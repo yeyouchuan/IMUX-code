@@ -26,7 +26,7 @@ export default function Volunteer() {
                         </div>
                         <div className='w-full h-fit bg-white rounded-xl p-8'>
                             <div className='prose'>
-                                <h2>York's Role in the Civil War</h2>
+                                <h2>York&lsquo;s Role in the Civil War</h2>
                                 <li><strong>Strategic Importance:</strong> York, with its historical significance and strategic position in Northern England, became a pivotal location during the Civil War. As a walled city, it offered substantial defensive advantages and was a symbol of Royalist strength in the North.</li>
                                 <li><strong>Royalist Stronghold:</strong> Initially, York was a stronghold for the Royalists. Its control was crucial for maintaining influence and coordination across Northern England, making it a target for Parliamentary forces.</li>
                                 <li><strong>Economic and Military Significance:</strong> Besides its symbolic value, York was important for practical reasons, including control over trade routes and the ability to muster significant military forces.</li>
@@ -43,7 +43,7 @@ export default function Volunteer() {
                             <div className='prose'>
                                 <h2>The Onset of the Siege</h2>
                                 <li><strong>Parliamentary Forces Converge:</strong> In 1644, a critical moment arrived as Parliamentary forces, including Scottish armies and troops from the Eastern Association, converged on York. This marked the beginning of one of the most significant sieges of the Civil War.</li>
-                                <li><strong>York's Defense Preparedness:</strong> The city, aware of its importance and vulnerability, had prepared for a potential siege, strengthening its defenses and rallying its inhabitants for what would be a pivotal moment in the war.</li>
+                                <li><strong>York&lsquo;s Defense Preparedness:</strong> The city, aware of its importance and vulnerability, had prepared for a potential siege, strengthening its defenses and rallying its inhabitants for what would be a pivotal moment in the war.</li>
                             </div>
                         </div>
                     </div>
@@ -59,14 +59,14 @@ export default function Volunteer() {
                             <div className='prose'>
                                 <h2>Military Strategies and Siege Techniques</h2>
                                 <li><strong>Encirclement:</strong> The Parliamentary forces, including Scottish armies and troops from the Eastern Association, strategically surrounded York on three sides. This tactic aimed to isolate the city and cut off supplies and reinforcements.</li>
-                                <li><strong>Use of Fortifications:</strong> The Scots' inability to capture a key fortification known as ‘the Sconce’ on the Mount played a crucial role. This fort effectively blocked the main southern approach to Micklegate Bar, hindering the siege efforts.</li>
+                                <li><strong>Use of Fortifications:</strong> The Scots&lsquo; inability to capture a key fortification known as &lsquo;the Sconce&lsquo; on the Mount played a crucial role. This fort effectively blocked the main southern approach to Micklegate Bar, hindering the siege efforts.</li>
                             </div>
                         </div>
                         <div className='w-full h-fit bg-white rounded-xl p-8'>
                             <div className='prose'>
                                 <h2>Offensive and Defensive Tactics</h2>
-                                <li><strong>Sapping and Bombardment:</strong> Parliamentary forces employed sapping (undermining the walls) and bombardment to breach the city's defenses. Despite these aggressive tactics, York's robust defenses held strong for an extended period.</li>
-                                <li><strong>City's Resistance:</strong> York's defenders utilized the city's strong walls and strategic positioning to their advantage, repelling multiple attempts to breach the city.</li>
+                                <li><strong>Sapping and Bombardment:</strong> Parliamentary forces employed sapping (undermining the walls) and bombardment to breach the city&lsquo;s defenses. Despite these aggressive tactics, York&lsquo;s robust defenses held strong for an extended period.</li>
+                                <li><strong>City&lsquo;s Resistance:</strong> York&lsquo;s defenders utilized the city&lsquo;s strong walls and strategic positioning to their advantage, repelling multiple attempts to breach the city.</li>
                             </div>
                         </div>
                         <div className='w-full h-fit bg-white rounded-xl p-8'>
@@ -85,8 +85,8 @@ export default function Volunteer() {
                         <div className='w-full h-fit bg-white rounded-xl p-8'>
                             <div className='prose'>
                                 <h2>Impact of the Siege Tactics</h2>
-                                <li><strong>Effectiveness and Limitations:</strong> While the siege tactics, including sapping and bombardment, were partially effective, York's strong defenses and strategic fortifications like ‘the Sconce’ presented significant challenges to the besieging forces.</li>
-                                <li><strong>Role of Fortifications in Defense:</strong> The effectiveness of York's fortifications, particularly in areas like Micklegate Bar, was a testament to the city's preparedness and strategic planning in the face of the siege.</li>
+                                <li><strong>Effectiveness and Limitations:</strong> While the siege tactics, including sapping and bombardment, were partially effective, York&lsquo;s strong defenses and strategic fortifications like &lsquo;the Sconce&lsquo; presented significant challenges to the besieging forces.</li>
+                                <li><strong>Role of Fortifications in Defense:</strong> The effectiveness of York&lsquo;s fortifications, particularly in areas like Micklegate Bar, was a testament to the city&lsquo;s preparedness and strategic planning in the face of the siege.</li>
                             </div>
                         </div>
                     </div>
@@ -101,15 +101,15 @@ export default function Volunteer() {
                         <div className='w-full h-fit bg-white rounded-xl mt-20 p-8'>
                             <div className='prose'>
                                 <h2>Role and Significance of Micklegate Bar</h2>
-                                <li><strong>Strategic Importance:</strong> Micklegate Bar, a key gateway into York from the south, was crucial in the city's defenses during the siege. Its strategic position and fortifications were key in controlling access to York.</li>
-                                <li><strong>Historical Role:</strong> Beyond its defensive function, Micklegate Bar served as the 'royal gateway', symbolizing York's importance and prestige throughout history.</li>
+                                <li><strong>Strategic Importance:</strong> Micklegate Bar, a key gateway into York from the south, was crucial in the city&lsquo;s defenses during the siege. Its strategic position and fortifications were key in controlling access to York.</li>
+                                <li><strong>Historical Role:</strong> Beyond its defensive function, Micklegate Bar served as the &lsquo;royal gateway&lsquo;, symbolizing York&lsquo;s importance and prestige throughout history.</li>
                             </div>
                         </div>
                         <div className='w-full h-fit bg-white rounded-xl p-8'>
                             <div className='prose'>
                                 <h2>Impact of the Siege on Micklegate Bar and the Walls</h2>
-                                <li><strong>Damage Incurred:</strong> The siege resulted in significant damage to parts of York's walls, particularly near Walmgate Bar and St Mary’s Abbey. However, Micklegate Bar was notably spared from direct attack due to the protection offered by the Royalist-held Sconce fort.</li>
-                                <li><strong>Defensive Actions:</strong> The city's defenders effectively utilized Micklegate Bar and other fortifications, playing a significant role in resisting the Parliamentary forces.</li>
+                                <li><strong>Damage Incurred:</strong> The siege resulted in significant damage to parts of York&lsquo;s walls, particularly near Walmgate Bar and St Mary&lsquo;s Abbey. However, Micklegate Bar was notably spared from direct attack due to the protection offered by the Royalist-held Sconce fort.</li>
+                                <li><strong>Defensive Actions:</strong> The city&lsquo;s defenders effectively utilized Micklegate Bar and other fortifications, playing a significant role in resisting the Parliamentary forces.</li>
                             </div>
                         </div>
                         <div className='w-full h-fit bg-white rounded-xl p-8'>
@@ -121,8 +121,8 @@ export default function Volunteer() {
                         </div>
                         <div className='w-full h-fit bg-white rounded-xl p-8'>
                             <div className='prose'>
-                                <h2>The Walls' Evolution and Significance</h2>
-                                <li><strong>Pre-Siege Fortifications:</strong> Prior to the siege, York's walls were a composite of medieval and earlier structures, strengthened over time in response to various threats.</li>
+                                <h2>The Walls&lsquo; Evolution and Significance</h2>
+                                <li><strong>Pre-Siege Fortifications:</strong> Prior to the siege, York&lsquo;s walls were a composite of medieval and earlier structures, strengthened over time in response to various threats.</li>
                                 <li><strong>Post-Siege Relevance:</strong> Following the siege, the walls, including Micklegate Bar, experienced periods of neglect and restoration, mirroring the evolving needs and perceptions of city defenses in times of peace and conflict.</li>
                             </div>
                         </div>
